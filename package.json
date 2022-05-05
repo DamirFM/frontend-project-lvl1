@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/DamirFM/frontend-project-lvl1#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "publish": "^0.6.0",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^8.14.0",
