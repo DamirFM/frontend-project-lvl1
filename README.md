@@ -8,3 +8,7 @@
 
 ### make-lint
 [![make-lint](https://github.com/DamirFM/frontend-project-lvl1/workflows/make-lint/badge.svg)](https://github.com/DamirFM/frontend-project-lvl1/actions)
+
+### Nodejs/yml
+
+[![Actions Status](https://github.com/DamirFM/frontend-project-lvl1/workflows/nodejs.yml/badge.svg)](https://github.com/DamirFM/frontend-project-lvl1/actions)
