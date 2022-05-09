@@ -9,4 +9,5 @@
 ### Make lint 
 [![Make lint](https://github.com/DamirFM/frontend-project-lvl1/workflows/make-lint/badge.svg)](https://github.com/DamirFM/frontend-project-lvl1/actions)
 
-
+### new lint link
+[![display name](https://github.com/DamirFM/frontend-project-lvl1/workflows/make-lint/badge.svg)](https://github.com/DamirFM/frontend-project-lvl1/actions/workflows/make-lint.yml)
