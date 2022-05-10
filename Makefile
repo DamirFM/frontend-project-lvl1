@@ -9,3 +9,6 @@ publish: #выполнит установку publish
 
 lint: # запускать npx eslint .
 	npx eslint .
+
+fix: # запускать исправление ошибок
+	npx eslint --fix .
