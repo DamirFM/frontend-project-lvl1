@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 /* eslint-disable import/no-unresolved */
-// eslint-disable-next-line no-unused-vars
-// eslint-disable-next-line import/no-unresolved
-// eslint-disable-next-line no-unused-vars
-import { userName } from '../src/cli.js ';
+/* eslint-disable no-unused-vars */
+import * as cliEvenJs from '../src/cli-even.js ';
 
-console.log('Welcome to the Brain Games!');
+console.log(`Hi ${cliEvenJs.userName}!`);
+console.log('Answer "yes" if the number is even, otherwise answer "no".');
+console.log(`Question: ${cliEvenJs.randomNumber}`);
