@@ -1,11 +1,9 @@
 #!/usr/bin/env node
+/* eslint-disable import/named */
+/* eslint-disable import/extensions */
 
-// import * as cliEvenJs from '../src/cli-even.js ';
-import { userName } from '../src/cli-even.js ';
-import { question, even } from '../src/cli-even.js';
+import { logic } from '../src/cli-even.js';
 
-console.log(`Hi ${userName}!`);
+console.log(logic());
 
-console.log(`${question}`);
-
-console.log(even());
+// console.log(even());
