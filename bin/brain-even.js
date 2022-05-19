@@ -5,5 +5,3 @@
 import { logic } from '../src/cli-even.js';
 
 console.log(logic());
-
-// console.log(even());
