@@ -11,3 +11,5 @@
 
 ### Asclinema:
 https://asciinema.org/a/hnXNHX53yVoeXyyvHs7Sqqoak
+
+asciinema play 496685.cast
