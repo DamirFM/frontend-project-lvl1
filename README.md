@@ -9,3 +9,5 @@
 ### Maintainability Badge:
 [![Maintainability](https://api.codeclimate.com/v1/badges/6625d39ccf04938eabca/maintainability)](https://codeclimate.com/github/DamirFM/frontend-project-lvl1/maintainability)
 
+### Asclinema:
+https://asciinema.org/a/hnXNHX53yVoeXyyvHs7Sqqoak
