@@ -7,9 +7,8 @@
 /* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 
-const roundsCount = 3;
-
 export const logic = () => {
+  const roundsCount = 3;
   const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
   const isEven = (number) => number % 2 === 0;
@@ -32,10 +31,9 @@ export const logic = () => {
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again, ${userName}!`);
-      return;
+      return console.log(`Let's try again, ${userName}!`);
     }
     console.log('Correct!');
   }
-  console.log(`Congratulations, ${userName}!`);
+  return console.log(`Congratulations, ${userName}!`);
 };
