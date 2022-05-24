@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-/* eslint-disable import/extensions */
 
-import { logic } from '../src/cli-even.js';
+import { logic } from '../src/games/cli-even.js';
 
 logic();
