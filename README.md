@@ -9,5 +9,8 @@
 ### Maintainability Badge:
 [![Maintainability](https://api.codeclimate.com/v1/badges/6625d39ccf04938eabca/maintainability)](https://codeclimate.com/github/DamirFM/frontend-project-lvl1/maintainability)
 
-### Asclinema:
+### Asclinema for BRAIN-EVEN:
 [![asciicast](https://asciinema.org/a/hnXNHX53yVoeXyyvHs7Sqqoak.svg)](https://asciinema.org/a/hnXNHX53yVoeXyyvHs7Sqqoak)
+
+### Asclinema for BRAIN-CALC:
+[![asciicast](https://asciinema.org/a/KSQ7ajGTjplmCVb3FS5kht18r.svg)](https://asciinema.org/a/KSQ7ajGTjplmCVb3FS5kht18r)
