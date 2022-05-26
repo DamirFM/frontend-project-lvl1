@@ -27,7 +27,6 @@ function core() {
         k *= i;
       } else i++;
     }
-    console.log(k);
 
     return k;
   }
