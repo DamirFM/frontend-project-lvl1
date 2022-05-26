@@ -4,7 +4,7 @@ install: # установить зависимости
 brain-games: #запуск игры
 	node bin/brain-games.js
 
-gg: #Запуск игры с четностью
+brain-even: #Запуск игры с четностью
 	node bin/brain-even.js
 
 publish: #выполнит установку publish
@@ -15,3 +15,9 @@ lint: # запускать npx eslint .
 
 fix: # запускать исправление ошибок
 	npx eslint --fix .
+
+brain-calc: #Запуск игры с выражением
+	node bin/brain-calc.js
+
+brain-gcd: # Запуск игры НОД
+	node bin/brain-gcd.js
