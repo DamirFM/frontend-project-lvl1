@@ -17,3 +17,6 @@
 
 ### Asclinema for BRAIN-GCD:
 [![asciicast](https://asciinema.org/a/ATHYbdJENFcDGNmQUANAq8Uev.svg)](https://asciinema.org/a/ATHYbdJENFcDGNmQUANAq8Uev)
+
+### Asclinema for BRAIN-PROGRESSION:
+[![asciicast](https://asciinema.org/a/0FmtYDsBKjN6LDLl3THGCcpgU.svg)](https://asciinema.org/a/0FmtYDsBKjN6LDLl3THGCcpgU)
