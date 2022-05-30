@@ -20,3 +20,5 @@
 
 ### Asclinema for BRAIN-PROGRESSION:
 [![asciicast](https://asciinema.org/a/0FmtYDsBKjN6LDLl3THGCcpgU.svg)](https://asciinema.org/a/0FmtYDsBKjN6LDLl3THGCcpgU)
+
+### Asclinema for BRAIN-PRIME:
