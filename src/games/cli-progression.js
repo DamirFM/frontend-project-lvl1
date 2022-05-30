@@ -20,8 +20,8 @@ const mainProgression = (firstItem, step, mainProgressionLength) => {
 
 function core() {
   const first = Math.floor(Math.random() * 10);
-  const step = Math.floor(1, (Math.random() * 10));
-  const length = Math.floor(Math.random() * 10);
+  const step = Math.floor(Math.random() * 10);
+  const length = Math.floor(5, Math.random() * 10);
   const progression = mainProgression(first, step, length);
   const randIndex = Math.floor(Math.random() * progression.length);
 
