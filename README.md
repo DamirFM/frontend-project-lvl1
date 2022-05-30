@@ -22,3 +22,4 @@
 [![asciicast](https://asciinema.org/a/0FmtYDsBKjN6LDLl3THGCcpgU.svg)](https://asciinema.org/a/0FmtYDsBKjN6LDLl3THGCcpgU)
 
 ### Asclinema for BRAIN-PRIME:
+[![asciicast](https://asciinema.org/a/y2aj2uRJrtZQkOV747h0MBzxz.svg)](https://asciinema.org/a/y2aj2uRJrtZQkOV747h0MBzxz)
