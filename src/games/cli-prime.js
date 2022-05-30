@@ -30,4 +30,5 @@ function core() {
 
   return [question, correctAnswer];
 }
+
 export const logic = () => mainLogic(intro, core);
