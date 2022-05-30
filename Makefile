@@ -22,5 +22,5 @@ brain-calc: #Запуск игры с выражением
 brain-gcd: # Запуск игры НОД
 	node bin/brain-gcd.js
 
-p: # Запуск игры с арифметической прогрессией
+brain-progression: # Запуск игры с арифметической прогрессией
 	node bin/brain-progression.js
