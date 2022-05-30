@@ -15,4 +15,5 @@ const core = () => {
   return [question, correctAnswer];
 };
 
-export const logic = () => mainLogic(intro, core);
+const logic = () => mainLogic(intro, core);
+export default logic;
