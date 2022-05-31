@@ -27,9 +27,9 @@ const expression = (num1, arithmetic, num2) => {
 };
 
 function core() {
-  const num1 = Math.floor(Math.random() * 10);
-  const num2 = Math.floor(Math.random() * 10);
-  const randomOperator = Math.floor(Math.random() * arithmetic.length);
+  const num1 = Math.floor(Math.random() * 25);
+  const num2 = Math.floor(Math.random() * 25);
+  const randomOperator = Math.floor(Math.random() * arithmetic.length - 1);
   const rValue = arithmetic[randomOperator];
   const question = `Question: ${num1} ${rValue} ${num2} ?`;
   const correctAnswer = `${expression(num1, rValue, num2)}`;
