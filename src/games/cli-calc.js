@@ -31,7 +31,7 @@ function core() {
   const num2 = Math.floor(Math.random() * 10);
   const randomOperator = Math.floor(Math.random() * arithmetic.length);
   const rValue = arithmetic[randomOperator];
-  const question = `${num1} ${rValue} ${num2} ?`;
+  const question = `Question: ${num1} ${rValue} ${num2} ?`;
   const correctAnswer = `${expression(num1, rValue, num2)}`;
   return [question, correctAnswer];
 }

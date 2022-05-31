@@ -24,7 +24,7 @@ function core() {
     }
     return true;
   };
-  const question = `${num}`;
+  const question = `Question: ${num}`;
 
   const correctAnswer = isPrime(num) ? 'yes' : 'no';
 

@@ -30,7 +30,7 @@ function core() {
 
     return k;
   }
-  const question = `${num1} ${num2} ?`;
+  const question = `Question: ${num1} ${num2} ?`;
   const correctAnswer = `${fun(num1, num2)}`;
   return [question, correctAnswer];
 }
