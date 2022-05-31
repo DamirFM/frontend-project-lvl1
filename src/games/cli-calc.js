@@ -1,3 +1,4 @@
+/* eslint-disable prefer-rest-params */
 /* eslint-disable no-unused-vars */
 /* eslint-disable arrow-body-style */
 /* eslint-disable no-unused-expressions */
@@ -25,14 +26,16 @@ const expression = (num1, arithmetic, num2) => {
       return null;
   }
 };
-
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 function core() {
   const num1 = Math.floor(Math.random() * 25);
   const num2 = Math.floor(Math.random() * 25);
-  const randomOperator = Math.floor(0, Math.random() * arithmetic.length - 1);
-  const rValue = arithmetic[randomOperator];
-  const question = `${num1} ${rValue} ${num2}`;
-  const correctAnswer = `${expression(num1, rValue, num2)}`;
+  const randomOperator = arithmetic[getRandomNumber(0, arithmetic.length - 1)];
+ // console.log(randomOperator);
+ // const rValue = arithmetic[randomOperator];
+  // console.log(rValue);
+  const question = `${num1} ${randomOperator} ${num2}`;
+  const correctAnswer = `${expression(num1, randomOperator, num2)}`;
   return [question, correctAnswer];
 }
 
