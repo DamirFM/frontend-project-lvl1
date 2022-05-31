@@ -13,10 +13,10 @@ export const mainLogic = (intro, core) => {
 
   for (let i = 1; i <= roundsCount; i += 1) {
     const [question, correctAnswer] = core();
-    console.log(` ${question}`);
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== correctAnswer) {
-      console.log(`Question:'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       return console.log(`Let's try again, ${userName}!`);
     }
     console.log('Correct!');
