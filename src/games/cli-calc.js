@@ -27,13 +27,13 @@ const expression = (num1, arithmetic, num2) => {
   }
 };
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-export function core() {
+export const core = () => {
   const num1 = Math.floor(1, Math.random() * 25);
   const num2 = Math.floor(1, Math.random() * 25);
   const randomOperator = arithmetic[getRandomNumber(0, arithmetic.length - 1)];
   const question = `${num1} ${randomOperator} ${num2}`;
   const correctAnswer = `${expression(num1, randomOperator, num2)}`;
   return [question, correctAnswer];
-}
+};
 
 export const logic = () => mainLogic(intro, core);
