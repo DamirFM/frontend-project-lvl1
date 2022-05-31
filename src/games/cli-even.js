@@ -10,7 +10,7 @@ const isEven = (number) => number % 2 === 0;
 
 export const core = () => {
   const number = Math.floor(Math.random() * 100);
-  const question = `${number}`;
+  const question = `Question: ${number}`;
   const correctAnswer = isEven(number) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
