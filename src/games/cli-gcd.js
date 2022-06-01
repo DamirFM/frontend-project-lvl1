@@ -18,8 +18,8 @@ const core = () => {
 
   function fun(num1, num2) {
     num1 > num2 || ([num1, num2] = [num1, num2]);
-    const length = num2 / 2; let
-      k = 1;
+    const length = num2 / 2;
+    let k = 1;
     for (let i = 2; i <= length;) {
       if (!(num2 % i) && !(num1 % i)) {
         num2 /= i;
