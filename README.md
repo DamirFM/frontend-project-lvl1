@@ -10,6 +10,16 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/6625d39ccf04938eabca/maintainability)](https://codeclimate.com/github/DamirFM/frontend-project-lvl1/maintainability)
 
+
+Game List:
+
+brain-games - game with introduction
+brain-even - check a number for evenness
+brain-calc - calculate simple expressions
+brain-gcd - calculate the greatest common divisor of 2 numbers
+brain-prime - check a number for primality
+brain-progression - calculate and enter missing number from progression
+
 ### Asclinema for BRAIN-EVEN:
 
 [![asciicast](https://asciinema.org/a/kgf052AKFexD7QDhm1BgvVlNr.svg)](https://asciinema.org/a/kgf052AKFexD7QDhm1BgvVlNr)
