@@ -35,6 +35,4 @@ const core = () => {
   const correctAnswer = `${expression(num1, randomOperator, num2)}`;
   return [question, correctAnswer];
 };
-const logic = () => mainLogic(intro, core);
-
-export default logic;
+export const logic = () => mainLogic(intro, core);
