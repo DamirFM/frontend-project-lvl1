@@ -27,7 +27,7 @@ const expression = (num1, arithmetic, num2) => {
   }
 };
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-export const core = () => {
+const core = () => {
   const num1 = getRandomNumber(1, 25);
   const num2 = getRandomNumber(1, 25);
   const randomOperator = arithmetic[getRandomNumber(0, arithmetic.length - 1)];
@@ -35,5 +35,6 @@ export const core = () => {
   const correctAnswer = `${expression(num1, randomOperator, num2)}`;
   return [question, correctAnswer];
 };
+const logic = () => mainLogic(intro, core);
 
-export const logic = () => mainLogic(intro, core);
+export default logic;
