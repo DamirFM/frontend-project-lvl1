@@ -42,7 +42,7 @@ Welcome to my first project.  This repository consists of several arithmetic con
 
 ### Asclinema for BRAIN-CALC:
 
-[![asciicast](https://asciinema.org/a/KSQ7ajGTjplmCVb3FS5kht18r.svg)](https://asciinema.org/a/KSQ7ajGTjplmCVb3FS5kht18r)
+[![asciicast](https://asciinema.org/a/VqAHrsw1nXKwrWbaNLdF9pdTs.svg)](https://asciinema.org/a/VqAHrsw1nXKwrWbaNLdF9pdTs)
 
 ### Asclinema for BRAIN-GCD:
 
