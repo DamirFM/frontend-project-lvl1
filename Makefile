@@ -1,29 +1,29 @@
-install: 
+install: # установить зависимости
 	npm ci
 
-publish: #install publish
-	npm publish --dry-run
-
-lint: 
-	npx eslint .
-
-fix: 
-	npx eslint --fix .
-
-brain-games: #Running the brain-games
+brain-games: #запуск игры
 	node bin/brain-games.js
 
-brain-even: #Running the brain-even game
+brain-even: #Запуск игры с четностью
 	node bin/brain-even.js
 
-brain-calc: #Running the brain-calc game
+publish: #выполнит установку publish
+	npm publish --dry-run
+
+lint: # запускать npx eslint .
+	npx eslint .
+
+fix: # запускать исправление ошибок
+	npx eslint --fix .
+
+brain-calc: #Запуск игры с выражением
 	node bin/brain-calc.js
 
-brain-gcd: #Running the brain-gcd game
+brain-gcd: # Запуск игры НОД
 	node bin/brain-gcd.js
 
-brain-progression: #Running the brain-progression game
+brain-progression: # Запуск игры с арифметической прогрессией
 	node bin/brain-progression.js
 
-brain-prime: #Running the brain-prime game
+brain-prime: #Запуск игры на простое число
 	node bin/brain-prime.js
