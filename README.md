@@ -46,7 +46,7 @@ Welcome to my first project.  This repository consists of several arithmetic con
 
 ### Asclinema for BRAIN-GCD:
 
-[![asciicast](https://asciinema.org/a/ATHYbdJENFcDGNmQUANAq8Uev.svg)](https://asciinema.org/a/ATHYbdJENFcDGNmQUANAq8Uev)
+[![asciicast](https://asciinema.org/a/cBxqswWvAX8pA0vZmmKF9gUIG.svg)](https://asciinema.org/a/cBxqswWvAX8pA0vZmmKF9gUIG)
 
 ### Asclinema for BRAIN-PROGRESSION:
 
