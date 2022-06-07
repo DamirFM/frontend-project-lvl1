@@ -38,15 +38,14 @@ Welcome to my first project.  This repository consists of several arithmetic con
 
 ### Asclinema for BRAIN-EVEN:
 
-[![asciicast](https://asciinema.org/a/kgf052AKFexD7QDhm1BgvVlNr.svg)](https://asciinema.org/a/kgf052AKFexD7QDhm1BgvVlNr)
-
+[![asciicast](https://asciinema.org/a/498770.svg)](https://asciinema.org/a/498770)
 ### Asclinema for BRAIN-CALC:
 
-[![asciicast](https://asciinema.org/a/VqAHrsw1nXKwrWbaNLdF9pdTs.svg)](https://asciinema.org/a/VqAHrsw1nXKwrWbaNLdF9pdTs)
+[![asciicast](https://asciinema.org/a/498863.svg)](https://asciinema.org/a/498863)
 
 ### Asclinema for BRAIN-GCD:
 
-[![asciicast](https://asciinema.org/a/cBxqswWvAX8pA0vZmmKF9gUIG.svg)](https://asciinema.org/a/cBxqswWvAX8pA0vZmmKF9gUIG)
+[![asciicast](https://asciinema.org/a/499558.svg)](https://asciinema.org/a/499558)
 
 ### Asclinema for BRAIN-PROGRESSION:
 
@@ -54,7 +53,5 @@ Welcome to my first project.  This repository consists of several arithmetic con
 
 ### Asclinema for BRAIN-PRIME:
 
-[![asciicast](https://asciinema.org/a/y2aj2uRJrtZQkOV747h0MBzxz.svg)](https://asciinema.org/a/y2aj2uRJrtZQkOV747h0MBzxz)
-
-
+[![asciicast](https://asciinema.org/a/499952.svg)](https://asciinema.org/a/499952)
 
