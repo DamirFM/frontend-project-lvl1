@@ -50,7 +50,7 @@ Welcome to my first project.  This repository consists of several arithmetic con
 
 ### Asclinema for BRAIN-PROGRESSION:
 
-[![asciicast](https://asciinema.org/a/B3mnio3QSCBvPMQ8IpJhkajLr.svg)](https://asciinema.org/a/B3mnio3QSCBvPMQ8IpJhkajLr)
+[![asciicast](https://asciinema.org/a/499945.svg)](https://asciinema.org/a/499945)
 
 ### Asclinema for BRAIN-PRIME:
 
