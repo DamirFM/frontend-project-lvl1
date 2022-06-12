@@ -1,6 +1,3 @@
-/* eslint-disable import/prefer-default-export */
-/* eslint-disable no-console */
-/* eslint-disable no-undef */
 import readlineSync from 'readline-sync';
 
 export const mainLogic = (intro, core) => {
