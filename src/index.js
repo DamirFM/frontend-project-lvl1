@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export const mainLogic = (intro, core) => {
+const mainLogic = (intro, core) => {
   const roundsCount = 3;
 
   console.log('Welcome to the Brain Games!');
@@ -20,3 +20,5 @@ export const mainLogic = (intro, core) => {
   }
   return console.log(`Congratulations, ${userName}!`);
 };
+
+export default mainLogic;
