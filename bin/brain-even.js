@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import logic from '../src/games/cli-even';
+import logic from '../src/games/cli-even.js';
 
 logic();
