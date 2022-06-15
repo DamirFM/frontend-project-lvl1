@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import logic from '../src/games/cli-progression';
+import logic from '../src/games/cli-progression.js';
 
 logic();

@@ -1,5 +1,5 @@
-import mainLogic from '../index';
-import getRandomNumber from '../getRandomNumber';
+import mainLogic from '../index.js';
+import getRandomNumber from '../getRandomNumber.js';
 
 const intro = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
