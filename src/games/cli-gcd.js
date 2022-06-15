@@ -1,5 +1,5 @@
-import mainLogic from '../index';
-import getRandomNumber from '../getRandomNumber';
+import mainLogic from '../index.js';
+import getRandomNumber from '../getRandomNumber.js';
 
 const intro = 'Find the greatest common divisor of given numbers.';
 
