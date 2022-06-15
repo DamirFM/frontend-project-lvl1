@@ -1,5 +1,5 @@
-import mainLogic from '../index';
-import getRandomNumber from '../getRandomNumber';
+import mainLogic from '../index.js';
+import getRandomNumber from '../getRandomNumber.js';
 
 const intro = 'What is the result of the expression?';
 
