@@ -8,7 +8,7 @@ const mainLogic = (intro, core) => {
   console.log(`Hello, ${userName}!`);
   console.log(intro);
 
-  for (let i = 0; i <= roundsCount; i += 1) {
+  for (let i = 1; i <= roundsCount; i += 1) {
     const [question, correctAnswer] = core();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
