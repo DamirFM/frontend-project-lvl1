@@ -25,6 +25,6 @@ function core() {
   return [question, correctAnswer];
 }
 
-const logic = () => mainLogic(intro, core);
+const primeGame = () => mainLogic(intro, core);
 
-export default logic;
+export default primeGame;
