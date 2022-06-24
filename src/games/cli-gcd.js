@@ -18,6 +18,6 @@ const core = () => {
   const correctAnswer = `${gcd(num1, num2)}`;
   return [question, correctAnswer];
 };
-const logic = () => mainLogic(intro, core);
+const gcdGame = () => mainLogic(intro, core);
 
-export default logic;
+export default gcdGame;
