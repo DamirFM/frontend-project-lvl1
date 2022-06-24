@@ -12,6 +12,6 @@ const core = () => {
   return [question, correctAnswer];
 };
 
-const logic = () => mainLogic(intro, core);
+const evenGame = () => mainLogic(intro, core);
 
-export default logic;
+export default evenGame;
