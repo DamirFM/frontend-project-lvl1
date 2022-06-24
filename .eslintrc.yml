@@ -5,7 +5,7 @@ extends: eslint:recommended
 parserOptions:
   ecmaVersion: latest
   sourceType: module
-rules: {
+rules: 
         // override default options
         "comma-dangle": ["error", "always"],
         "indent": ["error", 2],
@@ -19,4 +19,4 @@ rules: {
         "no-console": "off",
         "no-inline-comments": "off",
         "import/extensions": "off",
-    }
+    
