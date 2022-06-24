@@ -1,4 +1,4 @@
-import mainLogic from '../index.js';
+import gameEngine from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
 const intro = 'What is the result of the expression?';
@@ -18,7 +18,7 @@ const expression = (num1, operator, num2) => {
   }
 };
 
-const core = () => {
+const generateRoundData = () => {
   const num1 = getRandomNumber(1, 25);
   const num2 = getRandomNumber(1, 25);
   const randomOperator = arithmetic[getRandomNumber(0, arithmetic.length - 1)];
@@ -27,6 +27,6 @@ const core = () => {
   return [question, correctAnswer];
 };
 
-const logic = () => mainLogic(intro, core);
+const calcGame = () => gameEngine(intro, generateRoundData);
 
-export default logic;
+export default calcGame;

@@ -1,9 +1,9 @@
-import mainLogic from '../index.js';
+import gameEngine from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
 const intro = 'Find the greatest common divisor of given numbers.';
 
-const core = () => {
+const generateRoundData = () => {
   const num1 = getRandomNumber(1, 100);
   const num2 = getRandomNumber(1, 100);
 
@@ -18,6 +18,6 @@ const core = () => {
   const correctAnswer = `${gcd(num1, num2)}`;
   return [question, correctAnswer];
 };
-const gcdGame = () => mainLogic(intro, core);
+const gcdGame = () => gameEngine(intro, generateRoundData);
 
 export default gcdGame;

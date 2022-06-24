@@ -1,4 +1,4 @@
-import mainLogic from '../index.js';
+import gameEngine from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
 const intro = 'What number is missing in the progression?';
@@ -11,7 +11,7 @@ const mainProgression = (firstItem, step, mainProgressionLength) => {
   return array;
 };
 
-function core() {
+function generateRoundData() {
   const first = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 10);
   const length = getRandomNumber(5, 10);
@@ -24,6 +24,6 @@ function core() {
   return [question, correctAnswer];
 }
 
-const progressionGame = () => mainLogic(intro, core);
+const progressionGame = () => gameEngine(intro, generateRoundData);
 
 export default progressionGame;
