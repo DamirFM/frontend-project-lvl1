@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import logic from '../src/games/cli-gcd.js';
+import gcdGame from '../src/games/cli-gcd.js';
 
-logic();
+gcdGame();
