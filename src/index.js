@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-const roundsCount = 3;
+
 
 const gameEngine = (gameRules, generateRoundData) => {
 
@@ -7,8 +7,9 @@ const gameEngine = (gameRules, generateRoundData) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(gameRules);
-
+  const roundsCount = 3;
   for (let i = 0; i === roundsCount; i += 1) {
+    
     
     const [question, correctAnswer] = generateRoundData();
     console.log(`Question: ${question}`);
