@@ -7,7 +7,7 @@ const gameEngine = (gameRules, generateRoundData) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(gameRules);
-  const roundsCount = 2;
+  const roundsCount = 3;
   for (let i = 0; i !== roundsCount; i += 1) {
     
     
