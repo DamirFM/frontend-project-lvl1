@@ -8,7 +8,7 @@ const gameEngine = (gameRules, generateRoundData) => {
   console.log(`Hello, ${userName}!`);
   console.log(gameRules);
   const roundsCount = 3;
-  for (let i = 0; i <= roundsCount; i += 1) {
+  for (let i = 0; i !== roundsCount; i += 1) {
     
     
     const [question, correctAnswer] = generateRoundData();
