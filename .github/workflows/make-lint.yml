@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install modules
-      run: yarn
+      run: yml
     - name: make-lint
       run: npx eslint . --ext .js,.jsx,.ts,.tsx
 
