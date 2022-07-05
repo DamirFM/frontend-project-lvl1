@@ -1,21 +1,14 @@
 env:
-  browser: true
   es2021: true
-extends: eslint:recommended
+  node: true
+
+extends:
+  - airbnb-base
+
 parserOptions:
-  ecmaVersion: latest
+  ecmaVersion: 13
   sourceType: module
-rules: 
-        // override default options
-        "indent": ["error", 2],
-        "no-cond-assign": ["error", "always"],
-
-        // disable now, but enable in the future
-        "one-var": "off", // ["error", "never"]
-
-        // disable
-        "init-declarations": "off",
-        "no-console": "off",
-        "no-inline-comments": "off",
-        "import/extensions": "off",
-    
+  
+rules:
+  no-console: 0
+  import/extensions: 0
