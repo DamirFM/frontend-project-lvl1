@@ -1,13 +1,13 @@
 name: make-lint
 on: push
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  build: ver.1
+    runs-on: ubuntu-latest 
     steps:
-    - uses: actions/checkout@v2
-    - name: Install modules
-
-    - name: make-lint
-      run: npx eslint . --ext .js,.jsx,.ts,.tsx
-
-      
+       - uses: actions/checkout@v2
+       - name: npm install
+         run: | 
+           make install
+       - name: make-lint
+         run: | 
+           make lint
