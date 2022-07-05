@@ -1,5 +1,5 @@
-import gameEngine from '../index';
-import getRandomNumber from '../getRandomNumber';
+import gameEngine from '../index.js';
+import getRandomNumber from '../getRandomNumber.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
