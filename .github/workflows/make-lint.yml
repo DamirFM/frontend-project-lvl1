@@ -1,13 +1,14 @@
-name: make-lint
+name: make-lint.yml
 on: push
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  make-lint:
+    runs-on: ubuntu-latest 
     steps:
-    - uses: actions/checkout@v2
-    - name: Install modules
-      run: yml
-    - name: make-lint
-      run: npx eslint . --ext .js,.jsx,.ts,.tsx
-
+       - uses: actions/checkout@v2
+       - name: npm install
+         run: | 
+           make install
+       - name: make-lint
+         run: | 
+           make-lint
       
