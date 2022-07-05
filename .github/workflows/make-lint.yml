@@ -1,13 +1,11 @@
-name: nodejs.yml
+name: make-lint
 on: push
 jobs:
-  my-job:
-    runs-on: ubuntu-latest 
+  build:
+    runs-on: ubuntu-latest
     steps:
-       - uses: actions/checkout@v2
-       - name: npm install
-         run: | 
-           make install
-       - name: Run Linter
-         run: | 
-           make lint
+    - uses: actions/checkout@v2
+    - name: Install modules
+      run: yarn
+    - name: make-lint
+      run: npx eslint . --ext .js,.jsx,.ts,.tsx
