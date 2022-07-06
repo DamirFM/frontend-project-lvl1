@@ -1,31 +1,11 @@
-# Name of workflow
 name: make-lint
-
-# Trigger the workflow on push or pull request
-on:
-  - push
-
+on: push
 jobs:
   build:
-
-    # The type of machine to run the job on
     runs-on: ubuntu-latest
-
     steps:
-
-      - uses: actions/checkout@v2
-        # Step's name
-      - name: make-lint
-
-      - run: npx eslint .
-      - run: make-lint
-      # - name: Test & publish code coverage
-      #   # Publish code coverage on Code Climate
-      #   # https://github.com/paambaati/codeclimate-action
-      #   uses: paambaati/codeclimate-action@v3
-      #   # Add Code Climate secret key
-      #   env:
-      #     CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-      #   with:
-      #     coverageCommand: make test-coverage
-      #     debug: true
+    - uses: actions/checkout@v2
+    - name: Install modules
+      run: yarn
+    - name: make-lint
+      run: npx eslint . --ext .js,.jsx,.ts,.tsx
