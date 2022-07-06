@@ -8,4 +8,5 @@ jobs:
     - name: Install modules
       run: yarn
     - name: make-lint
-      run: npx eslint .
+     - run: make install
+     - run: make lint
