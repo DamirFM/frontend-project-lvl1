@@ -11,6 +11,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6625d39ccf04938eabca/maintainability)](https://codeclimate.com/github/DamirFM/frontend-project-lvl1/maintainability)
 
 # Description:
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />  
 
 Welcome to my first project.  This repository consists of several arithmetic console games that reflect my skills gained in the Hexlet course.
 

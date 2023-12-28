@@ -13,7 +13,8 @@ publish: #выполнит установку publish
 lint: # запускать npx eslint .
 	npx eslint .
 
-
+fix: # запускать исправление ошибок
+	npx eslint --fix .
 
 brain-calc: #Запуск игры с выражением
 	node bin/brain-calc.js
